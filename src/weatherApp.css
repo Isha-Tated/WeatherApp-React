@@ -1,0 +1,57 @@
+/* General styling for the WeatherApp */
+.weather-app {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #cbf4f3, #4f9a97);
+    min-height: 100vh;
+    color: #333;
+  }
+  
+  .weather-app h2 {
+    font-size: 2.5rem;
+    color: #d1d9e4;
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .card-container .MuiCard-root {
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .search-box-container {
+    margin: 20px auto;
+    max-width: 400px;
+  }
+   */
+  /* .search-box-container input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #0d47a1;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+   */
+  .search-box-container button {
+    background-color: #100562;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-box-container button:hover {
+    background-color: #0d0f12;
+  }
+  
